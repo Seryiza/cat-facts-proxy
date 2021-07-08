@@ -1,0 +1,23 @@
+{
+  "name": "cat-facts-proxy",
+  "version": "1.0.0",
+  "description": "Minimalistic Express proxy for cat facts APIs to avoid CORS",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seryiza/cat-facts-proxy.git"
+  },
+  "author": "Sergey \"Seryiza\" Zaborovsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seryiza/cat-facts-proxy/issues"
+  },
+  "homepage": "https://github.com/Seryiza/cat-facts-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.8.2"
+  }
+}
